@@ -25,6 +25,9 @@ out
 target
 *.iml
 .idea
+*.gradle
+gradlew.bat
+gradlew
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
