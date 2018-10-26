@@ -6,10 +6,10 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 public class Task12274 {
-    private static String textWrite(char[][] massive, int width, int lenth) {
+    public static String textWrite(char[][] massive, int width, int lenth) {
         String result = "";
-        for (int j = 0; j < 5; j++) {
-            for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < width; j++) {
+            for (int i = 0; i < lenth; i++) {
                 if(i%2 == 0){
                     result = result + massive[i][j];
                 }

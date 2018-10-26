@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 public class Task12270 {
-
     public static String textWrite(int[][] massive, int width, int lenth) {
         return "" + massive[0][0] + massive[width-1][0] + massive[0][lenth-1] + massive[width-1][lenth-1];
     }

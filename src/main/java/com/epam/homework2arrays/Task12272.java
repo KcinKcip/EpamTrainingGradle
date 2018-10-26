@@ -3,11 +3,10 @@ package com.epam.homework2arrays;
 import java.util.Random;
 
 public class Task12272 {
-
-    private static String textWriteA(char[][] massive, int width, int lenth) {
+    public static String textWriteA(char[][] massive, int width, int lenth) {
         String result = "";
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < width; i++) {
+            for (int j = 0; j < lenth; j++) {
                 if((i+j)%2 == 0){
                     result = result + massive[i][j];
                 }
@@ -15,10 +14,10 @@ public class Task12272 {
         }
         return result;
     }
-    private static String textWriteB(char[][] massive, int width, int lenth) {
+    public static String textWriteB(char[][] massive, int width, int lenth) {
         String result = "";
-        for (int j = 0; j < 5; j++) {
-            for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < width; j++) {
+            for (int i = 0; i < lenth; i++) {
                 if((i+j)%2 == 0){
                     result = result + massive[i][j];
                 }
