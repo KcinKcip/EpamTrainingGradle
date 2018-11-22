@@ -18,6 +18,6 @@ public class Main {
     }
 
     private static <T> void changeEntity(T entity, Settable<T> s) {
-        s.set(entity, "Tomas", 3);
+        s.set(entity, "Tom", 10);
     }
 }
